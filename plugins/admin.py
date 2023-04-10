@@ -55,7 +55,7 @@ async def vip1(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
 	inlimit  = 50737418240
-	uploadlimit(int(user_id),1484670284)
+	uploadlimit(int(user_id),50737418240)
 	usertype(int(user_id),"🪙 **SILVER**")
 	addpre(int(user_id))
 	await update.message.edit("Added successfully To Premium Upload limit 50 GB")
@@ -67,7 +67,7 @@ async def vip2(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
 	inlimit = 80530636800
-	uploadlimit(int(user_id), 1484670284)
+	uploadlimit(int(user_id), 80530636800)
 	usertype(int(user_id),"💫 **GOLD**")
 	addpre(int(user_id))
 	await update.message.edit("Added successfully To Premium Upload limit 75 GB")
@@ -78,7 +78,7 @@ async def vip3(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
 	inlimit = 214748364800
-	uploadlimit(int(user_id), 1484670284)
+	uploadlimit(int(user_id), 214748364800)
 	usertype(int(user_id),"💎 **DIAMOND**")
 	addpre(int(user_id))
 	await update.message.edit("Added successfully To Premium Upload limit 200 GB")
@@ -124,7 +124,7 @@ async def dft(bot,update):
 	id = update.message.reply_to_message.text.split("/resetpower")
 	user_id = id[1].replace(" ", "")
 	inlimit = 3221225472
-	uploadlimit(int(user_id), 2000000000)
+	uploadlimit(int(user_id), 3221225472)
 	usertype(int(user_id),"**Free**")
 	addpre(int(user_id))
 	await update.message.edit("Daily Data limit has been reset successsfully.\nThis account has default 3 GB renaming capacity ")
