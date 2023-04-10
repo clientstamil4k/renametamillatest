@@ -53,8 +53,7 @@ async def start(client, message):
                                       [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/autofilterbotsale")],
                                       [InlineKeyboardButton("🦋 Movie Group 🦋", url="https://t.me/+BTloleyZM1IxMzhl")],
                                       [InlineKeyboardButton("Support Group", url='https://t.me/rubanencodes'),
-                                      InlineKeyboardButton("Movie Channel", url='https://t.me/tamil4katmos')],
-                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='')]
+                                      InlineKeyboardButton("Movie Channel", url='https://t.me/tamil4katmos')]
                                       ]))
         return
     if id:
@@ -67,8 +66,7 @@ async def start(client, message):
                                              [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/autofilterbotsale")],
                                               [InlineKeyboardButton("🦋 Movie Group 🦋", url="https://t.me/+BTloleyZM1IxMzhl")],
                                               [InlineKeyboardButton("Support Group", url='https://t.me/rubanencodes'),
-                                             InlineKeyboardButton("Movie Channel", url='https://t.me/tamil4katmos')],
-                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='')]
+                                             InlineKeyboardButton("Movie Channel", url='https://t.me/tamil4katmos')]
                                           ]))
             except:
                 return
@@ -87,8 +85,7 @@ async def start(client, message):
                                          [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/autofilterbotsale")],
                                           [InlineKeyboardButton("🦋 Movie Group 🦋", url="https://t.me/+BTloleyZM1IxMzhl")],
                                           [InlineKeyboardButton("Support Group", url='https://t.me/rubanencodes'),
-                                          InlineKeyboardButton("Movie Channel", url='https://t.me/tamil4katmos')],
-                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='')]
+                                          InlineKeyboardButton("Movie Channel", url='https://t.me/tamil4katmos')]
                                           ]))
     
 
@@ -128,9 +125,7 @@ async def send_doc(client, message):
                                   reply_markup=InlineKeyboardMarkup([
                                                                      [InlineKeyboardButton("🔺 Bot Updates 🔺", url='https://t.me/TG_UPDATES1')],
                                                                      [InlineKeyboardButton("🦋 Movies  ", url='https://t.me/+BTloleyZM1IxMzhl'),
-                                                                     InlineKeyboardButton("  Support Group 🦋", url='https://t.me/rubanencodes')],
-                                                                     [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='')]
-                                                                    ]))
+                                                                     InlineKeyboardButton("  Support Group 🦋", url='https://t.me/rubanencodes')]
         await message.reply_text(text=f"🦋")
         return 
 
