@@ -50,11 +50,11 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/TG_UPDATES1")],
-                                      [InlineKeyboardButton("🦋 Movie Group 🦋", url="https://t.me/movies_hub_official1")],
-                                      [InlineKeyboardButton("Support Group", url='https://t.me/moviessearchalllanguage'),
-                                      InlineKeyboardButton("Movie Channel", url='https://t.me/moviessearchalllanguage')],
-                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://fypmoney.in/add/cfmer.22610001340940@icici')]
+                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/autofilterbotsale")],
+                                      [InlineKeyboardButton("🦋 Movie Group 🦋", url="https://t.me/+BTloleyZM1IxMzhl")],
+                                      [InlineKeyboardButton("Support Group", url='https://t.me/rubanencodes'),
+                                      InlineKeyboardButton("Movie Channel", url='https://t.me/tamil4katmos')],
+                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='')]
                                       ]))
         return
     if id:
@@ -64,11 +64,11 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                              [InlineKeyboardButton("🦋 Movie Group 🦋", url="https://t.me/movies_hub_officila1")],
-                                              [InlineKeyboardButton("Support Group", url='https://t.me/moviessearchalllanguage'),
-                                             InlineKeyboardButton("Movie Channel", url='https://t.me/moviessearchalllanguage')],
-                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://fypmoney.in/add/cfmer.22610001340940@icici')]
+                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/autofilterbotsale")],
+                                              [InlineKeyboardButton("🦋 Movie Group 🦋", url="https://t.me/+BTloleyZM1IxMzhl")],
+                                              [InlineKeyboardButton("Support Group", url='https://t.me/rubanencodes'),
+                                             InlineKeyboardButton("Movie Channel", url='https://t.me/tamil4katmos')],
+                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='')]
                                           ]))
             except:
                 return
@@ -84,11 +84,11 @@ async def start(client, message):
 	**Document Or Video** and enter new filename to rename it__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/TG_UPDATES1")],
-                                          [InlineKeyboardButton("🦋 Movie Group 🦋", url="https://t.me/Movies_hub_official1")],
-                                          [InlineKeyboardButton("Support Group", url='https://t.me/moviessearchalllanguage'),
-                                          InlineKeyboardButton("Movie Channel", url='https://t.me/moviessearchalllanguage')],
-                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://fypmoney.in/add/cfmer.22610001340940@icici')]
+                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/autofilterbotsale")],
+                                          [InlineKeyboardButton("🦋 Movie Group 🦋", url="https://t.me/+BTloleyZM1IxMzhl")],
+                                          [InlineKeyboardButton("Support Group", url='https://t.me/rubanencodes'),
+                                          InlineKeyboardButton("Movie Channel", url='https://t.me/tamil4katmos')],
+                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='')]
                                           ]))
     
 
@@ -126,11 +126,10 @@ async def send_doc(client, message):
     except:
         await message.reply_text(text=f"Hello dear {message.from_user.first_name}  **we are currently working on this issue**\n\nPlease try to rename files from your another account.\nBecause this BOT can't rename file sent by some ids.\n\nIf you are an **ADMIN** Don't worry ! here we have a solution for you dear {message.from_user.first_name }.\n\nPlease use \n👉 `/addpremium your_other_userid` 👈 to use premium feautres\n\n",
                                   reply_markup=InlineKeyboardMarkup([
-                                                                     [InlineKeyboardButton("🦋 Contact LazyDeveloper 🦋", url='https://telegram.me/KUSHALHK')],
                                                                      [InlineKeyboardButton("🔺 Bot Updates 🔺", url='https://t.me/TG_UPDATES1')],
-                                                                     [InlineKeyboardButton("🦋 Mdisk Movies  ", url='https://t.me/moviessearchalllanguage'),
-                                                                     InlineKeyboardButton("  Support Group 🦋", url='https://t.me/TG_UPDATES1')],
-                                                                     [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://fypmoney.in/add/cfmer.22610001340940@icici')]
+                                                                     [InlineKeyboardButton("🦋 Movies  ", url='https://t.me/+BTloleyZM1IxMzhl'),
+                                                                     InlineKeyboardButton("  Support Group 🦋", url='https://t.me/rubanencodes')],
+                                                                     [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='')]
                                                                     ]))
         await message.reply_text(text=f"🦋")
         return 
