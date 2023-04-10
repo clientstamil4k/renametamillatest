@@ -44,7 +44,7 @@ async def ceasepremium(bot, message):
 
 @Client.on_message((filters.channel | filters.private) & filters.user(ADMIN) & filters.command(["resetpower"]))
 async def resetpower(bot, message):
-	    await message.reply_text(text=f"Do you really want to reset daily limit to default data limit 1.2GB ?",quote=True,reply_markup=InlineKeyboardMarkup([
+	    await message.reply_text(text=f"Do you really want to reset daily limit to default data limit 3 GB ?",quote=True,reply_markup=InlineKeyboardMarkup([
 		           [InlineKeyboardButton("• YES ! Set as Default •",callback_data = "dft")],
 				   [InlineKeyboardButton("❌ Cancel ❌",callback_data = "cancel")]
 				   ]))
