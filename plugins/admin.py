@@ -54,11 +54,11 @@ async def resetpower(bot, message):
 async def vip1(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
-	inlimit  = 10737418240
+	inlimit  = 50737418240
 	uploadlimit(int(user_id),1484670284)
 	usertype(int(user_id),"🪙 **SILVER**")
 	addpre(int(user_id))
-	await update.message.edit("Added successfully To Premium Upload limit 10 GB")
+	await update.message.edit("Added successfully To Premium Upload limit 50 GB")
 	await bot.send_message(user_id,"Hey you are Upgraded To silver. check your plan here /myplan")
 	await bot.send_message(log_channel,f"⚡️ Plan Upgraded successfully 💥\n\nHey you are Upgraded To silver. check your plan here /myplan")
 
@@ -66,22 +66,22 @@ async def vip1(bot,update):
 async def vip2(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
-	inlimit = 53687091200
+	inlimit = 80530636800
 	uploadlimit(int(user_id), 1484670284)
 	usertype(int(user_id),"💫 **GOLD**")
 	addpre(int(user_id))
-	await update.message.edit("Added successfully To Premium Upload limit 50 GB")
+	await update.message.edit("Added successfully To Premium Upload limit 75 GB")
 	await bot.send_message(user_id,"Hey you are Upgraded To Gold. check your plan here /myplan")
 
 @Client.on_callback_query(filters.regex('vip3'))
 async def vip3(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
-	inlimit = 107374182400
+	inlimit = 214748364800
 	uploadlimit(int(user_id), 1484670284)
 	usertype(int(user_id),"💎 **DIAMOND**")
 	addpre(int(user_id))
-	await update.message.edit("Added successfully To Premium Upload limit 100 GB")
+	await update.message.edit("Added successfully To Premium Upload limit 200 GB")
 	await bot.send_message(user_id,"Hey you are Upgraded To Diamond. check your plan here /myplan")
 
 # CEASE POWER MODE @LAZYDEVELOPER
@@ -123,9 +123,9 @@ async def cp3(bot,update):
 async def dft(bot,update):
 	id = update.message.reply_to_message.text.split("/resetpower")
 	user_id = id[1].replace(" ", "")
-	inlimit = 2000000000
+	inlimit = 3221225472
 	uploadlimit(int(user_id), 2000000000)
 	usertype(int(user_id),"**Free**")
 	addpre(int(user_id))
-	await update.message.edit("Daily Data limit has been reset successsfully.\nThis account has default 1.2 GB renaming capacity ")
+	await update.message.edit("Daily Data limit has been reset successsfully.\nThis account has default 3 GB renaming capacity ")
 	await bot.send_message(user_id,"Your Daily Data limit has been reset successsfully.\n\nCheck your plan here - /myplan\n- Contact Admin 🦋<a href='https://t.me/ridzy96'>**ridzy96**</a>🦋")
