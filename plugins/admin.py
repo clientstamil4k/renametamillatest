@@ -98,7 +98,7 @@ async def vip3(bot,update):
 	await bot.send_message(log_channel,f"⚡️ Plan Upgraded successfully 💥\n\nHey you are Upgraded To Gold. check your plan here /myplan")
 	
 @Client.on_callback_query(filters.regex('vip4'))
-async def vip3(bot,update):
+async def vip4(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
 	inlimit = 107374182400
@@ -110,11 +110,11 @@ async def vip3(bot,update):
 	await bot.send_message(log_channel,f"⚡️ Plan Upgraded successfully 💥\n\nHey you are Upgraded To Platinum. check your plan here /myplan")
 	
 @Client.on_callback_query(filters.regex('vip5'))
-async def vip3(bot,update):
+async def vip5(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
-	inlimit = 214748364800
-	uploadlimit(int(user_id), 214748364800)
+	inlimit = 268435456000
+	uploadlimit(int(user_id), 268435456000)
 	usertype(int(user_id),"💎 **DIAMOND**")
 	addpre(int(user_id))
 	await update.message.edit("Added successfully To Premium Upload limit 250 GB")
@@ -135,7 +135,7 @@ async def cp1(bot,update):
 	await bot.send_message(user_id,"⚠️ Warning ⚠️\n\n- ACCOUNT DOWNGRADED\nYou can only use 15GB/day from Data qota.\nCheck your plan here - /myplan\n- Contact Admin 🦋<a href='https://t.me/ridzy96'>**ridzy96**</a>🦋")
 	
 @Client.on_callback_query(filters.regex('cp2'))
-async def cp1(bot,update):
+async def cp2(bot,update):
 	id = update.message.reply_to_message.text.split("/ceasepower")
 	user_id = id[1].replace(" ", "")
 	inlimit  = 10737418240
@@ -146,7 +146,7 @@ async def cp1(bot,update):
 	await bot.send_message(user_id,"⚠️ Warning ⚠️\n\n- ACCOUNT DOWNGRADED\nYou can only use 30GB/day from Data qota.\nCheck your plan here - /myplan\n- Contact Admin 🦋<a href='https://t.me/ridzy96'>**ridzy96**</a>🦋")
 
 @Client.on_callback_query(filters.regex('cp3'))
-async def cp1(bot,update):
+async def cp3(bot,update):
 	id = update.message.reply_to_message.text.split("/ceasepower")
 	user_id = id[1].replace(" ", "")
 	inlimit  = 21474836480
@@ -157,7 +157,7 @@ async def cp1(bot,update):
 	await bot.send_message(user_id,"⚠️ Warning ⚠️\n\n- ACCOUNT DOWNGRADED\nYou can only use 40GB/day from Data qota.\nCheck your plan here - /myplan\n- Contact Admin 🦋<a href='https://t.me/ridzy96'>**ridzy96**</a>🦋")	
 	
 @Client.on_callback_query(filters.regex('cp4'))
-async def cp1(bot,update):
+async def cp4(bot,update):
 	id = update.message.reply_to_message.text.split("/ceasepower")
 	user_id = id[1].replace(" ", "")
 	inlimit  = 42949672960
@@ -169,7 +169,7 @@ async def cp1(bot,update):
 	
 		
 @Client.on_callback_query(filters.regex('cp5'))
-async def cp1(bot,update):
+async def cp5(bot,update):
 	id = update.message.reply_to_message.text.split("/ceasepower")
 	user_id = id[1].replace(" ", "")
 	inlimit  = 85899345920
@@ -180,7 +180,7 @@ async def cp1(bot,update):
 	await bot.send_message(user_id,"⚠️ Warning ⚠️\n\n- ACCOUNT DOWNGRADED\nYou can only use 170GB/day from Data qota.\nCheck your plan here - /myplan\n- Contact Admin 🦋<a href='https://t.me/ridzy96'>**ridzy96**</a>🦋")	
 
 @Client.on_callback_query(filters.regex('cp6'))
-async def cp3(bot,update):
+async def cp5(bot,update):
 	id = update.message.reply_to_message.text.split("/ceasepower")
 	user_id = id[1].replace(" ", "")
 	inlimit = 0
