@@ -8,17 +8,25 @@ async def upgrade(bot,update):
 	Daily  Upload limit 1.2GB
 	Price 0
 	
-	**🪙 Silver Tier 🪙** 
-	Daily  Upload  limit 50GB
-	Price Rs 10  ind   per Month
+	🥉 Bronze Tier🥉 
+	💫Daily  Upload  limit 20 GB💫
+	💵Price Rs 10 or 0.5$ per Month💵
 	
-	**💫 Gold Tier 💫**
-	Daily Upload limit 75GB
-	Price Rs 20  ind   per Month
+	🥈 Silver Tier 🥈 
+	💫Daily  Upload  limit 40 GB💫
+	💵Price Rs 20 or 1$ per Month💵
 	
-	**💎 Diamond 💎**
-	Daily Upload limit 200GB
-	Price Rs 100 ind per Month
+	🪙 Gold Tier 🪙 
+	💫Daily  Upload  limit 60 GB💫
+	💵Price Rs 30 or 1.5$ per Month💵
+	
+	✨ Platinum Tier ✨ 
+	💫Daily  Upload  limit 100 GB💫
+	💵Price Rs 50 or 2$ per Month💵
+	
+	💎 Diamond Tier 💎
+	💫Daily  Upload  limit 250 GB💫
+	💵Price Rs 100 or 3$ per Month💵
 	
 	
 	Pay Using Upi I'd ```enpatamilan007@okicici```
@@ -36,23 +44,31 @@ async def upgradecm(bot,message):
 	Daily  Upload limit 1.2GB
 	Price 0
 	
-	**🪙 Silver Tier 🪙** 
-	Daily  Upload  limit 50GB
-	Price Rs 10  ind   per Month
+	🥉 Bronze Tier🥉 
+	💫Daily  Upload  limit 20 GB💫
+	💵Price Rs 10 or 0.5$ per Month💵
 	
-	**💫 Gold Tier 💫**
-	Daily Upload limit 75GB
-	Price Rs 20  ind   per Month
+	🥈 Silver Tier 🥈 
+	💫Daily  Upload  limit 40 GB💫
+	💵Price Rs 20 or 1$ per Month💵
 	
-	**💎 Diamond 💎**
-	Daily Upload limit 200GB
-	Price Rs 100 ind per Month
+	🪙 Gold Tier 🪙 
+	💫Daily  Upload  limit 60 GB💫
+	💵Price Rs 30 or 1.5$ per Month💵
+	
+	✨ Platinum Tier ✨ 
+	💫Daily  Upload  limit 100 GB💫
+	💵Price Rs 50 or 2$ per Month💵
+	
+	💎 Diamond Tier 💎
+	💫Daily  Upload  limit 250 GB💫
+	💵Price Rs 100 or 3$ per Month💵
 	
 	
 	Pay Using Upi I'd ```enpatamilan007@okicici```
 	
 	After Payment Send Screenshots Of 
-        Payment To Admin https://t.me/ridzy96"""
+        Payment To Admin @ridzy96"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/ridzy96")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
