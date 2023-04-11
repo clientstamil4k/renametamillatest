@@ -24,22 +24,33 @@ async def warn(c, m):
 async def buypremium(bot, message):
 	await message.reply_text("🦋 Select Plan to upgrade...", quote=True, reply_markup=InlineKeyboardMarkup([
 		           [
-				   InlineKeyboardButton("🪙 Silver", callback_data="vip1")
-				   ], [
-					InlineKeyboardButton("💫Gold", callback_data="vip2")
-				   ], [
-					InlineKeyboardButton("💎 Diamond", callback_data="vip3")
+				   InlineKeyboardButton("🥉 Bronze - 20GB 🥉", callback_data="vip1")
+				   ],[
+					InlineKeyboardButton("🥈 Silver - 40GB 🥈", callback_data="vip2")
+				   ],[
+					InlineKeyboardButton("🪙 Gold - 60GB 🪙", callback_data="vip3")
+				   ],[
+					InlineKeyboardButton("✨ Platinum - 100GB ✨", callback_data="vip4")
+				   ],[
+					InlineKeyboardButton("💎 Diamond - 250GB 💎", callback_data="vip5")
 					]]))
 
 
 @Client.on_message((filters.channel | filters.private) & filters.user(ADMIN) & filters.command(["ceasepower"]))
 async def ceasepremium(bot, message):
 	await message.reply_text(" POWER CEASE MODE", quote=True, reply_markup=InlineKeyboardMarkup([
-		           [InlineKeyboardButton("•× Limit 500MB ×•", callback_data="cp1"),
-				    InlineKeyboardButton("•× Limit 100MB ×•", callback_data="cp2")
-				   ], [
-				    InlineKeyboardButton("•••× CEASE ALL POWER ×•••", callback_data="cp3")
-				    ]]))
+		           [InlineKeyboardButton("•× CEASE 5GB ×•", callback_data="cp1")
+			   ],[
+				   InlineKeyboardButton("•× CEASE 10GB ×•", callback_data="cp2")
+			   ],[
+				   InlineKeyboardButton("•× CEASE 20GB ×•", callback_data="cp3")
+			   ],[
+				   InlineKeyboardButton("•× CEASE 40GB ×•", callback_data="cp4")
+			   ],[
+				   InlineKeyboardButton("•× CEASE 80GB ×•", callback_data="cp5")
+			   ],[
+				    InlineKeyboardButton("•••× CEASE ALL POWER ×•••", callback_data="cp6")
+			   ]]))
 
 
 @Client.on_message((filters.channel | filters.private) & filters.user(ADMIN) & filters.command(["resetpower"]))
@@ -54,26 +65,51 @@ async def resetpower(bot, message):
 async def vip1(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
-	inlimit  = 50737418240
-	uploadlimit(int(user_id),50737418240)
-	usertype(int(user_id),"🪙 **SILVER**")
+	inlimit  = 21474836480
+	uploadlimit(int(user_id),21474836480)
+	usertype(int(user_id),"🪙 **BRONZE**")
 	addpre(int(user_id))
-	await update.message.edit("Added successfully To Premium Upload limit 50 GB")
-	await bot.send_message(user_id,"Hey you are Upgraded To silver. check your plan here /myplan")
-	await bot.send_message(log_channel,f"⚡️ Plan Upgraded successfully 💥\n\nHey you are Upgraded To silver. check your plan here /myplan")
+	await update.message.edit("Added successfully To Bronze Premium Upload limit 20 GB")
+	await bot.send_message(user_id,"Hey you are Upgraded To Bronze. check your plan here /myplan")
+	await bot.send_message(log_channel,f"⚡️ Plan Upgraded successfully 💥\n\nHey you are Upgraded To Bronze. check your plan here /myplan")
 
 @Client.on_callback_query(filters.regex('vip2'))
 async def vip2(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
-	inlimit = 80530636800
-	uploadlimit(int(user_id), 80530636800)
-	usertype(int(user_id),"💫 **GOLD**")
+	inlimit = 42949672960
+	uploadlimit(int(user_id), 42949672960)
+	usertype(int(user_id),"💫 **SILVER**")
 	addpre(int(user_id))
-	await update.message.edit("Added successfully To Premium Upload limit 75 GB")
-	await bot.send_message(user_id,"Hey you are Upgraded To Gold. check your plan here /myplan")
+	await update.message.edit("Added successfully To Silver Premium Upload limit 40 GB")
+	await bot.send_message(user_id,"Hey you are Upgraded To Silver. check your plan here /myplan")
+	await bot.send_message(log_channel,f"⚡️ Plan Upgraded successfully 💥\n\nHey you are Upgraded To Silver. check your plan here /myplan")
 
 @Client.on_callback_query(filters.regex('vip3'))
+async def vip3(bot,update):
+	id = update.message.reply_to_message.text.split("/addpremium")
+	user_id = id[1].replace(" ", "")
+	inlimit = 64424509440
+	uploadlimit(int(user_id), 64424509440)
+	usertype(int(user_id),"💎 **GOLD**")
+	addpre(int(user_id))
+	await update.message.edit("Added successfully To Gold Premium Upload limit 60 GB")
+	await bot.send_message(user_id,"Hey you are Upgraded To Gold. check your plan here /myplan")
+	await bot.send_message(log_channel,f"⚡️ Plan Upgraded successfully 💥\n\nHey you are Upgraded To Gold. check your plan here /myplan")
+	
+@Client.on_callback_query(filters.regex('vip4'))
+async def vip3(bot,update):
+	id = update.message.reply_to_message.text.split("/addpremium")
+	user_id = id[1].replace(" ", "")
+	inlimit = 107374182400
+	uploadlimit(int(user_id), 107374182400)
+	usertype(int(user_id),"💎 **PLATINUM**")
+	addpre(int(user_id))
+	await update.message.edit("Added successfully To Platinum Premium Upload limit 100 GB")
+	await bot.send_message(user_id,"Hey you are Upgraded To Platinum. check your plan here /myplan")
+	await bot.send_message(log_channel,f"⚡️ Plan Upgraded successfully 💥\n\nHey you are Upgraded To Platinum. check your plan here /myplan")
+	
+@Client.on_callback_query(filters.regex('vip5'))
 async def vip3(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
@@ -81,8 +117,9 @@ async def vip3(bot,update):
 	uploadlimit(int(user_id), 214748364800)
 	usertype(int(user_id),"💎 **DIAMOND**")
 	addpre(int(user_id))
-	await update.message.edit("Added successfully To Premium Upload limit 200 GB")
+	await update.message.edit("Added successfully To Premium Upload limit 250 GB")
 	await bot.send_message(user_id,"Hey you are Upgraded To Diamond. check your plan here /myplan")
+	await bot.send_message(log_channel,f"⚡️ Plan Upgraded successfully 💥\n\nHey you are Upgraded To Diamond. check your plan here /myplan")
 
 # CEASE POWER MODE @LAZYDEVELOPER
 
@@ -90,25 +127,59 @@ async def vip3(bot,update):
 async def cp1(bot,update):
 	id = update.message.reply_to_message.text.split("/ceasepower")
 	user_id = id[1].replace(" ", "")
-	inlimit  = 524288000
-	uploadlimit(int(user_id),1484670284)
+	inlimit  = 5368709120
+	uploadlimit(int(user_id),16106127360)
 	usertype(int(user_id),"**ACCOUNT DOWNGRADED**")
 	addpre(int(user_id))
-	await update.message.edit("ACCOUNT DOWNGRADED\nThe user can only use 100MB/day from Data qota")
-	await bot.send_message(user_id,"⚠️ Warning ⚠️\n\n- ACCOUNT DOWNGRADED\nYou can only use 500MB/day from Data qota.\nCheck your plan here - /myplan\n- Contact Admin 🦋<a href='https://t.me/ridzy96'>**ridzy96**</a>🦋")
-
+	await update.message.edit("ACCOUNT DOWNGRADED\nThe user can only use 15GB/day from Data qota")
+	await bot.send_message(user_id,"⚠️ Warning ⚠️\n\n- ACCOUNT DOWNGRADED\nYou can only use 15GB/day from Data qota.\nCheck your plan here - /myplan\n- Contact Admin 🦋<a href='https://t.me/ridzy96'>**ridzy96**</a>🦋")
+	
 @Client.on_callback_query(filters.regex('cp2'))
-async def cp2(bot,update):
+async def cp1(bot,update):
 	id = update.message.reply_to_message.text.split("/ceasepower")
 	user_id = id[1].replace(" ", "")
-	inlimit = 104857600
-	uploadlimit(int(user_id), 104857600)
-	usertype(int(user_id),"**ACCOUNT DOWNGRADED Lv-2**")
+	inlimit  = 10737418240
+	uploadlimit(int(user_id),32212254720)
+	usertype(int(user_id),"**ACCOUNT DOWNGRADED**")
 	addpre(int(user_id))
-	await update.message.edit("ACCOUNT DOWNGRADED to Level 2\nThe user can only use 100MB/day from Data qota")
-	await bot.send_message(user_id,"⛔️ Last Warning ⛔️\n\n- ACCOUNT DOWNGRADED to Level 2\nYou can only use 100MB/day from Data qota.\nCheck your plan here - /myplan\n- Contact Admin 🦋<a href='https://t.me/ridzy96'>**ridzy96**</a>🦋")
+	await update.message.edit("ACCOUNT DOWNGRADED\nThe user can only use 30GB/day from Data qota")
+	await bot.send_message(user_id,"⚠️ Warning ⚠️\n\n- ACCOUNT DOWNGRADED\nYou can only use 30GB/day from Data qota.\nCheck your plan here - /myplan\n- Contact Admin 🦋<a href='https://t.me/ridzy96'>**ridzy96**</a>🦋")
 
 @Client.on_callback_query(filters.regex('cp3'))
+async def cp1(bot,update):
+	id = update.message.reply_to_message.text.split("/ceasepower")
+	user_id = id[1].replace(" ", "")
+	inlimit  = 21474836480
+	uploadlimit(int(user_id),42949672960)
+	usertype(int(user_id),"**ACCOUNT DOWNGRADED**")
+	addpre(int(user_id))
+	await update.message.edit("ACCOUNT DOWNGRADED\nThe user can only use 40GB/day from Data qota")
+	await bot.send_message(user_id,"⚠️ Warning ⚠️\n\n- ACCOUNT DOWNGRADED\nYou can only use 40GB/day from Data qota.\nCheck your plan here - /myplan\n- Contact Admin 🦋<a href='https://t.me/ridzy96'>**ridzy96**</a>🦋")	
+	
+@Client.on_callback_query(filters.regex('cp4'))
+async def cp1(bot,update):
+	id = update.message.reply_to_message.text.split("/ceasepower")
+	user_id = id[1].replace(" ", "")
+	inlimit  = 42949672960
+	uploadlimit(int(user_id),64424509440)
+	usertype(int(user_id),"**ACCOUNT DOWNGRADED**")
+	addpre(int(user_id))
+	await update.message.edit("ACCOUNT DOWNGRADED\nThe user can only use 60GB/day from Data qota")
+	await bot.send_message(user_id,"⚠️ Warning ⚠️\n\n- ACCOUNT DOWNGRADED\nYou can only use 60GB/day from Data qota.\nCheck your plan here - /myplan\n- Contact Admin 🦋<a href='https://t.me/ridzy96'>**ridzy96**</a>🦋")	
+	
+		
+@Client.on_callback_query(filters.regex('cp5'))
+async def cp1(bot,update):
+	id = update.message.reply_to_message.text.split("/ceasepower")
+	user_id = id[1].replace(" ", "")
+	inlimit  = 85899345920
+	uploadlimit(int(user_id),182536110080)
+	usertype(int(user_id),"**ACCOUNT DOWNGRADED**")
+	addpre(int(user_id))
+	await update.message.edit("ACCOUNT DOWNGRADED\nThe user can only use 170GB/day from Data qota")
+	await bot.send_message(user_id,"⚠️ Warning ⚠️\n\n- ACCOUNT DOWNGRADED\nYou can only use 170GB/day from Data qota.\nCheck your plan here - /myplan\n- Contact Admin 🦋<a href='https://t.me/ridzy96'>**ridzy96**</a>🦋")	
+
+@Client.on_callback_query(filters.regex('cp6'))
 async def cp3(bot,update):
 	id = update.message.reply_to_message.text.split("/ceasepower")
 	user_id = id[1].replace(" ", "")
