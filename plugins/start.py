@@ -146,7 +146,7 @@ async def send_doc(client, message):
         file = media.document or media.video or media.audio
         dcid = FileId.decode(file.file_id).dc_id
         filename = file.file_name
-        value = 2147483648
+        value = 4294967296
         used_ = find_one(message.from_user.id)
         used = used_["used_limit"]
         limit = used_["uploadlimit"]
