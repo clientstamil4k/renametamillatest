@@ -162,7 +162,6 @@ async def send_doc(client, message):
             await message.reply_text(f"100% of daily {humanbytes(limit)} data quota exhausted.\n\n  File size detected {humanbytes(file.file_size)}\n  Used Daily Limit {humanbytes(used)}\n\nYou have only **{humanbytes(remain)}** left on your Account.\nIf U Want to Rename Large File Upgrade Your Plan ", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Upgrade 💰💳", callback_data="upgrade")]]))
             return
         if value < file.file_size:
-            
             if STRING:
                 if buy_date == None:
                     await message.reply_text(f" You Can't Upload More Then {humanbytes(limit)} Used Daily Limit {humanbytes(used)} ", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Upgrade 💰💳", callback_data="upgrade")]]))
@@ -173,8 +172,8 @@ async def send_doc(client, message):
                     total_rename(int(botid), prrename)
                     total_size(int(botid), prsize, file.file_size)
                 else:
-                    uploadlimit(message.from_user.id, 2000000000)
-                    usertype(message.from_user.id, "Free")
+                    uploadlimit(message.from_user.id, 4294967296)
+                    usertype(message.from_user.id, "vip1")
 
                     await message.reply_text(f'Your Plan Expired On {buy_date}', quote=True)
                     return
@@ -185,8 +184,8 @@ async def send_doc(client, message):
             if buy_date:
                 pre_check = check_expi(buy_date)
                 if pre_check == False:
-                    uploadlimit(message.from_user.id, 2000000000)
-                    usertype(message.from_user.id, "Free")
+                    uploadlimit(message.from_user.id, 4294967296)
+                    usertype(message.from_user.id, "vip1")
 
             filesize = humanize.naturalsize(file.file_size)
             fileid = file.file_id
