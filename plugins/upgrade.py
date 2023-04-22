@@ -8,26 +8,53 @@ async def upgrade(bot,update):
 	Daily  Upload limit 1.2GB
 	Price 0
 	
+	⛩️INDIVIDUAL PLAN - FOR 1 MEMBER⛩️
+	
 	🥉 Bronze Tier🥉 
-	💫Daily  Upload  limit 20 GB💫
+	💫Daily  Upload  limit 10 GB💫
 	💵Price Rs 10 or 0.5$ per Month💵
 	
 	🥈 Silver Tier 🥈 
-	💫Daily  Upload  limit 40 GB💫
+	💫Daily  Upload  limit 25 GB💫
 	💵Price Rs 20 or 1$ per Month💵
 	
 	🪙 Gold Tier 🪙 
-	💫Daily  Upload  limit 60 GB💫
+	💫Daily  Upload  limit 40 GB💫
 	💵Price Rs 30 or 1.5$ per Month💵
 	
 	✨ Platinum Tier ✨ 
-	💫Daily  Upload  limit 100 GB💫
+	💫Daily  Upload  limit 70 GB💫
 	💵Price Rs 50 or 2$ per Month💵
 	
 	💎 Diamond Tier 💎
-	💫Daily  Upload  limit 250 GB💫
+	💫Daily  Upload  limit 150 GB💫
 	💵Price Rs 100 or 3$ per Month💵
 	
+	Pay Using Upi I'd ```karna862001-1@okicici```
+	
+	
+	
+	⛩️TEAM PLANS - FOR 1 TO 4 MEMBERS⛩️
+	
+	🥉 Bronze Tier🥉 
+	💫Daily  Upload  limit 10 GB💫
+	💵Price Rs 20 or 0.7$ per Month💵
+	
+	🥈 Silver Tier 🥈 
+	💫Daily  Upload  limit 25 GB💫
+	💵Price Rs 40 or 1.2$ per Month💵
+	
+	🪙 Gold Tier 🪙 
+	💫Daily  Upload  limit 40 GB💫
+	💵Price Rs 60 or 2$ per Month💵
+	
+	✨ Platinum Tier ✨ 
+	💫Daily  Upload  limit 70 GB💫
+	💵Price Rs 100 or 3$ per Month💵
+	
+	💎 Diamond Tier 💎
+	💫Daily  Upload  limit 150 GB💫
+	💵Price Rs 200 or 5$ per Month💵
 	
 	Pay Using Upi I'd ```karna862001-1@okicici```
 	
@@ -44,26 +71,54 @@ async def upgradecm(bot,message):
 	Daily  Upload limit 1.2GB
 	Price 0
 	
+	
+	⛩️INDIVIDUAL PLAN - FOR 1 MEMBER⛩️
+	
 	🥉 Bronze Tier🥉 
-	💫Daily  Upload  limit 20 GB💫
+	💫Daily  Upload  limit 10 GB💫
 	💵Price Rs 10 or 0.5$ per Month💵
 	
 	🥈 Silver Tier 🥈 
-	💫Daily  Upload  limit 40 GB💫
+	💫Daily  Upload  limit 25 GB💫
 	💵Price Rs 20 or 1$ per Month💵
 	
 	🪙 Gold Tier 🪙 
-	💫Daily  Upload  limit 60 GB💫
+	💫Daily  Upload  limit 40 GB💫
 	💵Price Rs 30 or 1.5$ per Month💵
 	
 	✨ Platinum Tier ✨ 
-	💫Daily  Upload  limit 100 GB💫
+	💫Daily  Upload  limit 70 GB💫
 	💵Price Rs 50 or 2$ per Month💵
 	
 	💎 Diamond Tier 💎
-	💫Daily  Upload  limit 250 GB💫
+	💫Daily  Upload  limit 150 GB💫
 	💵Price Rs 100 or 3$ per Month💵
 	
+	Pay Using Upi I'd ```karna862001-1@okicici```
+	
+	
+	
+	⛩️TEAM PLANS - FOR 1 TO 4 MEMBERS⛩️
+	
+	🥉 Bronze Tier🥉 
+	💫Daily  Upload  limit 10 GB💫
+	💵Price Rs 20 or 0.7$ per Month💵
+	
+	🥈 Silver Tier 🥈 
+	💫Daily  Upload  limit 25 GB💫
+	💵Price Rs 40 or 1.2$ per Month💵
+	
+	🪙 Gold Tier 🪙 
+	💫Daily  Upload  limit 40 GB💫
+	💵Price Rs 60 or 2$ per Month💵
+	
+	✨ Platinum Tier ✨ 
+	💫Daily  Upload  limit 70 GB💫
+	💵Price Rs 100 or 3$ per Month💵
+	
+	💎 Diamond Tier 💎
+	💫Daily  Upload  limit 150 GB💫
+	💵Price Rs 200 or 5$ per Month💵
 	
 	Pay Using Upi I'd ```karna862001-1@okicici```
 	
