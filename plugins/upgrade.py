@@ -58,8 +58,13 @@ async def upgrade(bot,update):
 	
 	Pay Using Upi I'd ```karna862001-1@okicici```
 	
+	
+	⚠️*********NOTE**********⚠️
+	
 	After Payment Send Screenshots Of 
-        Payment To Admin @ridzy96"""
+        Payment To Admin @ridzy96
+	
+	⚠️*********NOTE**********⚠️"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/ridzy96")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
@@ -122,8 +127,13 @@ async def upgradecm(bot,message):
 	
 	Pay Using Upi I'd ```karna862001-1@okicici```
 	
+	
+	⚠️*********NOTE**********⚠️
+	
 	After Payment Send Screenshots Of 
-        Payment To Admin @ridzy96"""
+        Payment To Admin @ridzy96
+	
+	⚠️*********NOTE**********⚠️"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/ridzy96")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
