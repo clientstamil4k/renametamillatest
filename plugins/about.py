@@ -12,4 +12,4 @@ async def start(client,message):
 	data = find_one(int(botid))
 	total_rename = data["total_rename"]
 	total_size = data["total_size"]
-	await message.reply_text(f"Creater :- <a href='@ridzy96'>🦋𝘾𝙧𝙚𝙖𝙩𝙤𝙧🦋</a>\nLanguage :- Python3\nLibrary :- Pyrogram 2.0\nServer :- HEROKU",quote=True)
+	await message.reply_text(f"Creater :- 🦋@RIDZY96🦋\nLanguage :- Python3\nLibrary :- Pyrogram 2.0\nServer :- HEROKU",quote=True)
