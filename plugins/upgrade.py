@@ -30,7 +30,7 @@ async def upgrade(bot,update):
 	💫Daily  Upload  limit 100 GB💫
 	💵Price Rs 100 or 5$ per Month💵
 	
-	Pay Using Upi I'd ```karna862001-1@okicici```
+	Pay Using Upi I'd ```ruban.private@oksbi```
 	
 	
 	
@@ -56,7 +56,7 @@ async def upgrade(bot,update):
 	💫Daily  Upload  limit 100 GB💫
 	💵Price Rs 200 or 10$ per Month💵
 	
-	Pay Using Upi I'd ```karna862001-1@okicici```
+	Pay Using Upi I'd ```ruban.private@oksbi```
 	
 	
 	⚠️*********NOTE**********⚠️
@@ -99,7 +99,7 @@ async def upgradecm(bot,message):
 	💫Daily  Upload  limit 100 GB💫
 	💵Price Rs 100 or 5$ per Month💵
 	
-	Pay Using Upi I'd ```karna862001-1@okicici```
+	Pay Using Upi I'd ```ruban.private@oksbi```
 	
 	
 	
@@ -125,7 +125,7 @@ async def upgradecm(bot,message):
 	💫Daily  Upload  limit 100 GB💫
 	💵Price Rs 200 or 10$ per Month💵
 	
-	Pay Using Upi I'd ```karna862001-1@okicici```
+	Pay Using Upi I'd ```ruban.private@oksbi```
 	
 	
 	⚠️*********NOTE**********⚠️
