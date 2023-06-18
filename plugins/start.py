@@ -50,7 +50,7 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/autofilterbotsale")],
+                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/rubanbots")],
                                       [InlineKeyboardButton("🦋 Movie Group 🦋", url="https://t.me/+BTloleyZM1IxMzhl")],
                                       [InlineKeyboardButton("Support Group", url='https://t.me/rubanencodes'),
                                       InlineKeyboardButton("Movie Channel", url='https://t.me/tamil4katmos')]
@@ -63,7 +63,7 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/autofilterbotsale")],
+                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/rubanbots")],
                                               [InlineKeyboardButton("🦋 Movie Group 🦋", url="https://t.me/+BTloleyZM1IxMzhl")],
                                               [InlineKeyboardButton("Support Group", url='https://t.me/rubanencodes'),
                                              InlineKeyboardButton("Movie Channel", url='https://t.me/tamil4katmos')]
@@ -82,7 +82,7 @@ async def start(client, message):
 	**Document Or Video** and enter new filename to rename it__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/autofilterbotsale")],
+                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/rubanbots")],
                                           [InlineKeyboardButton("🦋 Movie Group 🦋", url="https://t.me/+BTloleyZM1IxMzhl")],
                                           [InlineKeyboardButton("Support Group", url='https://t.me/rubanencodes'),
                                           InlineKeyboardButton("Movie Channel", url='https://t.me/tamil4katmos')]
@@ -124,7 +124,7 @@ async def send_doc(client, message):
         await message.reply_text(text=f"Hello dear {message.from_user.first_name}  **we are currently working on this issue**\n\nPlease try to rename files from your another account.\nBecause this BOT can't rename file sent by some ids.",
                                   reply_markup=InlineKeyboardMarkup([
                                                                      [InlineKeyboardButton("🔺 Admin🔺", url='https://t.me/ridzy96')],
-                                                                     [InlineKeyboardButton("  Support Group 🦋", url='https://t.me/rubanencodes')]]))
+                                                                     [InlineKeyboardButton("  Support Group 🦋", url='https://t.me/rubanbots')]]))
         await message.reply_text(text=f"🦋")
         return 
 
